@@ -1,3 +1,5 @@
+package daily_leetcode_challenge;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,6 +39,10 @@ public class WordPattern {
         if (words.length != pattern.length())
             return false;
 
+        // Idea is that index of character and word should always match
+        // for this whenever we encounter a new character/ word we store the object with its index in the map
+        // in case the same character is mapped to some other word, the word gets stored again with a different index
+        // to avoid problem where the word could itself be a character.. we can prefix the char with char- and word with word-
         for (Integer i = 0; i < words.length; i++) {
             char c = pattern.charAt(i);
             String w = words[i];

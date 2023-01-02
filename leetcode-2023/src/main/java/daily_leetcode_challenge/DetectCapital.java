@@ -1,3 +1,5 @@
+package daily_leetcode_challenge;
+
 public class DetectCapital {
     public static boolean detectCapitalUse(String word) {
         int caps = 0;
