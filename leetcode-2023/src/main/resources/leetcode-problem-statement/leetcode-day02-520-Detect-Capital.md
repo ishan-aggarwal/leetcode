@@ -40,7 +40,7 @@ count of caps is equal to the length of the string or count of caps is zero or c
 the string is capital in nature.
 
 **Implementation**
-[520: Detect Capital Solution](src/main/java/DetectCapital.java)  <br/>
+[520: Detect Capital Solution](../../../../src/main/java/DetectCapital.java)  <br/>
 
 ## Complexity Analysis
 

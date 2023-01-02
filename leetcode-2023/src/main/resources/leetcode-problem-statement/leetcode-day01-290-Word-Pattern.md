@@ -59,7 +59,7 @@ characters. While scanning each character-word pair,
     If the character IS IN in the character to word mapping, you just need to check whether the current word matches with the word which the character maps to in the character to word mapping. If not, you can return False immediately.
 
 **Implementation**
-[290: Word Pattern Solution](src/main/java/WordPattern.java)  <br/>
+[290: Word Pattern Solution](../../../../src/main/java/WordPattern.java)  <br/>
 
 ## Complexity Analysis
 
@@ -108,7 +108,7 @@ Let's go through some examples.
         Index of 'b' and index of 'fish' are NOT the same. Returns False.
 
 **Implementation**
-[290: Word Pattern Solution](src/main/java/WordPattern.java)  <br/>
+[290: Word Pattern Solution](../../../../src/main/java/WordPattern.java)  <br/>
 
 Differentiating between character and string: In Python there is no separate char type. And for cases such as:
 
