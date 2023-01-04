@@ -1,4 +1,4 @@
-package others;
+package real_world_examples;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
