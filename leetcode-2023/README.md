@@ -6,3 +6,5 @@
 **Solution** [Delete Columns to Make Sorted Solution](src/main/java/daily_leetcode_challenge/DeleteColumnsToMakeSorted.java)  <br/>
 [2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/) <br/>
 **Solution** [Minimum Rounds to Complete All Tasks Solution](src/main/java/daily_leetcode_challenge/MinimumRoundsToCompleteAllTasks.java)  <br/>
+[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) <br/>
+**Solution** [Minimum Number of Arrows to Burst Balloons Solution](src/main/java/daily_leetcode_challenge/MinimumArrowsToBurstBalloons.java)  <br/>
