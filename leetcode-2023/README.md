@@ -8,3 +8,5 @@
 **Solution** [Minimum Rounds to Complete All Tasks Solution](src/main/java/daily_leetcode_challenge/MinimumRoundsToCompleteAllTasks.java)  <br/>
 [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) <br/>
 **Solution** [Minimum Number of Arrows to Burst Balloons Solution](src/main/java/daily_leetcode_challenge/MinimumArrowsToBurstBalloons.java)  <br/>
+[1833. Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) <br/>
+**Solution** [Maximum Ice Cream Bars Solution](src/main/java/daily_leetcode_challenge/MaxIceCreamBars.java)  <br/>
