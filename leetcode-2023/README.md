@@ -12,7 +12,8 @@
 **Solution** [Minimum Number of Arrows to Burst Balloons Solution](src/main/java/daily_leetcode_challenge/MinimumArrowsToBurstBalloons.java)  <br/>
 **Day-06** [1833. Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) <br/>
 **Solution** [Maximum Ice Cream Bars Solution](src/main/java/daily_leetcode_challenge/MaxIceCreamBars.java)  <br/>
-
+**Day-07** [134. Gas Station](https://leetcode.com/problems/gas-station/) <br/>
+**Solution** [Gas Station Solution](src/main/java/daily_leetcode_challenge/GasStation.java)  <br/>
 
 **Day-09** [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) <br/>
 **Solution** [Binary Tree Preorder Traversal Solution](src/main/java/daily_leetcode_challenge/BinaryTreePreOrderTraversal.java) <br/>
