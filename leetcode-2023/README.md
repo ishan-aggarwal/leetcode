@@ -22,3 +22,5 @@
 **Solution** [Same Tree Solution](src/main/java/daily_leetcode_challenge/SameTree.java) <br/>
 **Day-11** [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) <br/>
 **Solution** [Minimum Time to Collect All Apples in a Tree Solution](src/main/java/daily_leetcode_challenge/MinimumTimeToCollectAllApplesInTree.java) <br/>
+**Day-12** [1519. Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) <br/>
+**Solution** [Number of Nodes in the Sub-Tree With the Same Label Solution](src/main/java/daily_leetcode_challenge/CountNodesInSubTreeWithSameLabel.java) <br/>
