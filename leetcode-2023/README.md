@@ -20,3 +20,5 @@
 **Solution** [Binary Tree Preorder Traversal Solution](src/main/java/daily_leetcode_challenge/BinaryTreePreOrderTraversal.java) <br/>
 **Day-10** [100. Same Tree](https://leetcode.com/problems/same-tree/) <br/>
 **Solution** [Same Tree Solution](src/main/java/daily_leetcode_challenge/SameTree.java) <br/>
+**Day-11** [1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) <br/>
+**Solution** [Minimum Time to Collect All Apples in a Tree Solution](src/main/java/daily_leetcode_challenge/MinimumTimeToCollectAllApplesInTree.java) <br/>
