@@ -28,3 +28,5 @@
 **Solution** [Longest Path With Different Adjacent Characters Solution](src/main/java/daily_leetcode_challenge/LongestPathWithDifferentAdjacentChars.java) <br/>
 **Day-14** [1061. Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) <br/>
 **Solution** [Lexicographically Smallest Equivalent String Solution](src/main/java/daily_leetcode_challenge/SmallestEquivalentString.java) <br/>
+**Day-15** [2421. Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/) <br/>
+**Solution** [Number of Good Paths Solution](src/main/java/daily_leetcode_challenge/NumberOfGoodPaths.java) <br/>
