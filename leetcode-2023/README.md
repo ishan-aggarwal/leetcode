@@ -26,3 +26,5 @@
 **Solution** [Number of Nodes in the Sub-Tree With the Same Label Solution](src/main/java/daily_leetcode_challenge/CountNodesInSubTreeWithSameLabel.java) <br/>
 **Day-13** [2246. Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) <br/>
 **Solution** [Longest Path With Different Adjacent Characters Solution](src/main/java/daily_leetcode_challenge/LongestPathWithDifferentAdjacentChars.java) <br/>
+**Day-14** [1061. Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) <br/>
+**Solution** [Lexicographically Smallest Equivalent String Solution](src/main/java/daily_leetcode_challenge/SmallestEquivalentString.java) <br/>
