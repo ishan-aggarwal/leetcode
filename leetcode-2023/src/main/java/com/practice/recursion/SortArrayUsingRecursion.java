@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SortUsingRecursion {
+public class SortArrayUsingRecursion {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>(Arrays.asList(3, 1, 2, 5, 0, 15, 20, 100, 4, 1));
@@ -32,10 +32,10 @@ public class SortUsingRecursion {
         sort(inputList);
 
         // now call the helper function to ensure the element gets added to its correct position
-        sortHelper(inputList, element);
+        insert(inputList, element);
     }
 
-    private static void sortHelper(List<Integer> inputList, int element) {
+    private static void insert(List<Integer> inputList, int element) {
 
         // base case
         // if the input list is empty or the last element of the list is smaller than the extracted element
@@ -50,7 +50,7 @@ public class SortUsingRecursion {
         int temp = inputList.remove(inputList.size() - 1);
 
         // call the sortHelper function again with the reduced list and the original element to check if it can be inserted now at the end
-        sortHelper(inputList, element);
+        insert(inputList, element);
 
         // finally add the removed element back to the end of the input list
         inputList.add(temp);
