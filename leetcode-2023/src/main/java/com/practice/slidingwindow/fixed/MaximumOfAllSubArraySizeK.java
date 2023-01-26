@@ -1,4 +1,4 @@
-package com.practice.recursion.slidingwindow.fixed;
+package com.practice.slidingwindow.fixed;
 
 import java.util.Arrays;
 import java.util.Deque;
