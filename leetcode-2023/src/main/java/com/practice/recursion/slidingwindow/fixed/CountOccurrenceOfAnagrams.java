@@ -8,6 +8,12 @@ public class CountOccurrenceOfAnagrams {
     public static void main(String[] args) {
         String str = "aabaabaa";
         String pattern = "aaba";
+        // basically in this problem, we need to prepare all the anagrams
+        // for given pattern and find in original string
+        // the size of window is not given to us,
+        // but logically it is same as the size of pattern (because all anagrams of pattern will be same as the length of pattern)
+        // finally we need to see all windows/sub-arrays in str of size pattern length to see if it is a possible anagram of given pattern
+        // if yes, we need to increase our answer by 1.
         System.out.println(solve(str, pattern, pattern.length()));
     }
 
