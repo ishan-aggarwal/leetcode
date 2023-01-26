@@ -1,5 +1,7 @@
 package com.practice.slidingwindow.fixed;
 
+
+// Maximum Sub Sub-array of size k
 public class FindMaxSumOfAllSubArraysOfSizeK {
 
     public static void main(String[] args) {

@@ -4,10 +4,11 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// First negative integer in every window of size k
 public class FirstNegativeInWindowSizeK {
 
     public static void main(String[] args) {
-        int[] arr = {12, -1, -2, 8, -16, 30, 16, 28};
+        int[] arr = {12, -1, -2, 8, -16, 30, 16, 28, -5};
         int k = 3;
         // here in this problem, we have been provided with an array and a window length
         // for each sub-array of size k, we need to find the first negative element that occurred in it
@@ -17,7 +18,30 @@ public class FirstNegativeInWindowSizeK {
 
         // print the result
         System.out.println(Arrays.toString(ans));
+        System.out.println(Arrays.toString(solve_bruteForce(arr, k)));
     }
+
+    private static int[] solve_bruteForce(int[] arr, int k) {
+        // given an array of length n, and sliding window size k
+        // total sub-arrays possible are n - k + 1
+        int[] ans = new int[arr.length - k + 1];
+        int ptr = 0;
+        for (int i = 0; i < arr.length - k + 1; i++) {
+            boolean isNegativeFound = false;
+            for (int j = i; j < i + k; j++) {
+                if (arr[j] < 0) {
+                    ans[ptr++] = arr[j];
+                    isNegativeFound = true;
+                    break;
+                }
+            }
+            if (!isNegativeFound) {
+                ans[ptr++] = 0;
+            }
+        }
+        return ans;
+    }
+
 
     private static int[] solve(int[] arr, int k) {
         // given an array of length n, and sliding window size k

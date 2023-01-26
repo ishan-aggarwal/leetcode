@@ -3,6 +3,7 @@ package com.practice.slidingwindow.fixed;
 import java.util.HashMap;
 import java.util.Map;
 
+// Count occurrences Of anagrams of a pattern in a string
 public class CountOccurrenceOfAnagrams {
 
     public static void main(String[] args) {
@@ -65,7 +66,7 @@ public class CountOccurrenceOfAnagrams {
                 // also if the freq of this char became greater than 0 this time, then we will increase the count variable also by 1
                 if (freqMap.containsKey(leftChar)) {
                     freqMap.put(leftChar, freqMap.get(leftChar) + 1);
-                    if (freqMap.get(leftChar) > 0) {
+                    if (freqMap.get(leftChar) == 1) {
                         count++;
                     }
                 }
