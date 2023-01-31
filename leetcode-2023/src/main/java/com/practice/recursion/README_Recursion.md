@@ -24,3 +24,8 @@ It also reduces the chances of stack overflow error
 If we have some statements written after the function call then those statements would get executed at the last of
 recursion. It means when the function call gets returned after doing its work.
 This is nothing but backtracking
+
+**All Kind of Patterns in Recursion | Print All | Print one | Count**
+Print All: Parameter wise.
+Print One: return T|F and avoid further recursion calls if you get True.
+Count: return 1|0 and add all f()'s and return the total.
