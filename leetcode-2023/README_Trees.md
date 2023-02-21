@@ -16,4 +16,5 @@
   * https://practice.geeksforgeeks.org/problems/inorder-traversal/1?page=1&category[]=Tree&sortBy=submissions
 * **Preorder Traversal**
   * https://practice.geeksforgeeks.org/problems/preorder-traversal/1?page=1&category[]=Tree&sortBy=submissions
-
+* **Postorder Traversal**
+  * https://practice.geeksforgeeks.org/problems/postorder-traversal/1?page=2&category[]=Tree&sortBy=submissions 
