@@ -10,3 +10,6 @@
   * https://practice.geeksforgeeks.org/problems/sum-tree/1?page=1&category[]=Tree&sortBy=submissions
 * **Mirror Tree**
   * https://practice.geeksforgeeks.org/problems/mirror-tree/1?page=1&category[]=Tree&sortBy=submissions
+* **Level order traversal**
+  * https://practice.geeksforgeeks.org/problems/level-order-traversal/1?page=1&category[]=Tree&sortBy=submissions
+
